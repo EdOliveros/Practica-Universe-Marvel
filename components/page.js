@@ -1,10 +1,13 @@
-export default function page(page) {
-    
+import { header } from "../modules/header.js"
+import { footer } from "../modules/footer.js"
+
+export default function page(body) { 
+
     const app = document.getElementById('app')
-    
+
     app.innerHTML = `
-        ${myHeader}
-        ${page}
+        ${header}
+        ${body}
         ${footer}
     `
 }
