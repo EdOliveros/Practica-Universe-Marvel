@@ -3,7 +3,9 @@ export const header = `
 <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
     <div class="container-fluid">
         
-        <a class="navbar-brand" href="#">Marvel Universe</a>
+        <a class="navbar-brand" href="#">
+            <img class='logo' src='src/img/logo.png' alt='logo'></img>
+        </a>
 
         <div class='ms-auto d-none d-lg-block'>
             <ul class="navbar-nav ms-auto offcanvas-body">
@@ -20,16 +22,18 @@ export const header = `
         </div>
 
 
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <img src='...' alt='.'></img>
+        <button class="btn-despliegue navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="material-symbols-outlined">
+                drag_handle
+            </span>
         </button>
 
 
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
+        <div class="ancho offcanvas offcanvas-end" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
 
             <div class="offcanvas-header">
                 <h5 class="offcanvas-title" id="navbarNavLabel">Menú</h5>
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
+                <button type="button" class="btn-close text-reset btn-despliegue" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
             </div>
 
             <ul class="navbar-nav offcanvas-body">
@@ -43,7 +47,11 @@ export const header = `
                     <a class="nav-link" href="#">About</a>
                 </li>
                 <li class="nav-item mx-auto">
-                    <button class="nav-link" href="#">Subscribe!</button>
+                    <div class='btn-container'>
+                        <button class="sub nav-link" href="#">
+                            <a>Subscribe!</a>
+                        </button>
+                    </div>
                 </li>
                 <li class="nav-item mx-auto">
                     <a class="nav-link" href="#">Contact</a>
@@ -57,9 +65,32 @@ export const header = `
 
 <style>
     body {
-        background-color: red;
-    }
 
+    }
+    .ancho {
+        width: 250px;
+    }
+    .sub {
+        border-radius: 30px;
+        border: none;
+        width: 120px;
+    }
+    .btn-container {
+        border-top: 1px solid grey;
+        padding: 30px 0 0 0;
+        margin-top: 20px;
+    }
+    .btn-despliegue:focus, .btn-despliegue:active, .btn-despliegue:focus-visible {
+        box-shadow: none !important;
+        outline: none !important;
+        border: none !important;
+    }
+    .logo {
+        width: 150px;
+    }
+      
 </style>
 
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 ` 
