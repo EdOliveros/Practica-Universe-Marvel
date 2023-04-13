@@ -1,4 +1,8 @@
 import page from "../components/page.js";
 import { comicsContainer } from '../modules/comicsContainer.js'
 
-page(comicsContainer)
+page(`
+    <h1>Comics!!</h1>
+    ${comicsContainer}
+    
+`)
