@@ -22,7 +22,7 @@ export const header = `
                         <a class="nav-link" href="characters.html">Characters</a>
                     </li>
                     <li class="nav-item ms-auto">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item ms-auto">
                         <div class='btn-container-lg'>
@@ -32,7 +32,7 @@ export const header = `
                         </div>
                     </li>
                     <li class="nav-item ms-auto">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
             </ul>
         </div>
@@ -66,7 +66,7 @@ export const header = `
                     <a class="nav-link" href="characters.html">Characters</a>
                 </li>
                 <li class="nav-item mx-auto">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item mx-auto">
                     <div class='btn-container'>
@@ -76,7 +76,7 @@ export const header = `
                     </div>
                 </li>
                 <li class="nav-item mx-auto">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
 
