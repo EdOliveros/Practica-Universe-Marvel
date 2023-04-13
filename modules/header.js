@@ -10,10 +10,20 @@ export const header = `
         <div class='ms-auto d-none d-lg-block'>
             <ul class="navbar-nav ms-auto offcanvas-body">
                     <li class="nav-item ms-auto">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item ms-auto">
-                        <a class="nav-link" href="#">Acerca de</a>
+                        <a class="nav-link" href="characters.html">Characters</a>
+                    </li>
+                    <li class="nav-item ms-auto">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item ms-auto">
+                        <div class='btn-container-lg'>
+                            <button class="sub nav-link" href="#">
+                                <a>Subscribe!</a>
+                            </button>
+                        </div>
                     </li>
                     <li class="nav-item ms-auto">
                         <a class="nav-link" href="#">Contacto</a>
@@ -38,10 +48,10 @@ export const header = `
 
             <ul class="navbar-nav offcanvas-body">
                 <li class="nav-item mx-auto">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
                 </li>
                 <li class="nav-item mx-auto">
-                    <a class="nav-link" href="#">Characters</a>
+                    <a class="nav-link" href="characters.html">Characters</a>
                 </li>
                 <li class="nav-item mx-auto">
                     <a class="nav-link" href="#">About</a>
@@ -79,6 +89,11 @@ export const header = `
         border-top: 1px solid grey;
         padding: 30px 0 0 0;
         margin-top: 20px;
+    }
+    .btn-container-lg {
+        border-left: 1px solid grey;
+        padding:0 0 0 30px;
+        margin-left: 20px;
     }
     .btn-despliegue:focus, .btn-despliegue:active, .btn-despliegue:focus-visible {
         box-shadow: none !important;
