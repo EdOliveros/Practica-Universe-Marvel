@@ -3,7 +3,7 @@ export const header = `
 <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
     <div class="container-fluid">
         
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
             <img class='logo' src='src/img/logo.png' alt='logo'></img>
         </a>
 
@@ -11,6 +11,12 @@ export const header = `
             <ul class="navbar-nav ms-auto offcanvas-body">
                     <li class="nav-item ms-auto">
                         <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item ms-auto">
+                        <a class="nav-link" href="series.html">Series</a>
+                    </li>
+                    <li class="nav-item ms-auto">
+                        <a class="nav-link" href="comics.html">Comics</a>
                     </li>
                     <li class="nav-item ms-auto">
                         <a class="nav-link" href="characters.html">Characters</a>
@@ -49,6 +55,12 @@ export const header = `
             <ul class="navbar-nav offcanvas-body">
                 <li class="nav-item mx-auto">
                     <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item mx-auto">
+                    <a class="nav-link" href="series.html">Series</a>
+                </li>
+                <li class="nav-item mx-auto">
+                    <a class="nav-link" href="comics.html">Comics</a>
                 </li>
                 <li class="nav-item mx-auto">
                     <a class="nav-link" href="characters.html">Characters</a>
