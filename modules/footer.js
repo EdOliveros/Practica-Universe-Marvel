@@ -2,7 +2,7 @@ export const footer = `
 <footer class="bg-light text-center text-lg-start">
 <div class="container-fluid p-4">
     <div class='row'>
-        <div class='col-8'>
+        <div class='col-12 col-md-8 order-2 order-lg-1'>
             <div class="row">
                 <div class="col-6 col-lg-3 d-flex flex-column text-center">
                     <h5 class="text-uppercase">Contacto</h5>
@@ -40,17 +40,17 @@ export const footer = `
             </div>
         </div>
 
-        <div class='col-4'>
+        <div class='col-12 col-md-4 order-1 order-lg-2'>
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="src/img/capitan.png" class="d-block w-100" alt="...">
+                    <img class='c-img' src="src/img/capitan.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="src/img/iron.png" class="d-block w-100" alt="...">
+                    <img class='c-img' src="src/img/iron.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="src/img/spider.png" class="d-block w-100" alt="...">
+                    <img class='c-img' src="src/img/st.png" class="d-block w-100" alt="...">
                 </div>
             </div>
             </div>
@@ -61,6 +61,17 @@ export const footer = `
 <div class="text-center p-3">
     © 2023 Todos los derechos reservados
 </div>
+
+<style>
+    .c-img {
+        height: 900px;
+    }
+    @media(max-width: 768px) {
+        .c-img {
+            height: 500px;
+        }
+    }
+</style>
 </footer>
 
 `
