@@ -1,4 +1,6 @@
 import page from '../components/page.js'
-import { carousel } from '../modules/carousel.js'
+import { hero } from '../modules/hero.js'
 
-page(carousel)
+page(`
+    ${hero}
+`)
