@@ -10,9 +10,9 @@ page(`
     ${encabezado}
     ${favoritesCharactersContainer}
 
-  <!-- Sección de últimas noticias -->
+  <!-- Sección de últimas entradas -->
   <section>
-    <h2 class="mb-5">Últimas noticias</h2>
+    <h2 class="mb-5">Blog</h2>
     <div class="row">
       <div class="col-md-6 mb-4">
         <div class="card">
@@ -26,22 +26,16 @@ page(`
       </div>
       <div class="col-md-6 mb-4">
         <div class="card">
-          <img src="https://via.placeholder.com/500x
-
-
-
-
-350" alt="Imagen de noticia" class="card-img-top">
-<div class="card-body">
-<h3 class="card-title">Spider-Man se une al MCU</h3>
-<p class="card-text">Lee sobre el emocionante regreso de Spider-Man al Universo Cinematográfico de Marvel.</p>
-<a href="#" class="btn btn-primary">Leer más</a>
-</div>
-</div>
-</div>
-</div>
-
-  </section>
+          <img src="https://via.placeholder.com/500x350" alt="Imagen de noticia" class="card-img-top">
+      <div class="card-body">
+      <h3 class="card-title">Spider-Man se une al MCU</h3>
+      <p class="card-text">Lee sobre el emocionante regreso de Spider-Man al Universo Cinematográfico de Marvel.</p>
+      <a href="#" class="btn btn-primary">Leer más</a>
+      </div>
+      </div>
+      </div>
+      </div>
+      </section>
 
 
 
