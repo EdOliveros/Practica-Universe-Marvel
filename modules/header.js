@@ -22,6 +22,9 @@ export const header = `
                         <a class="nav-link" href="characters.html">Characters</a>
                     </li>
                     <li class="nav-item ms-auto">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item ms-auto">
                         <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item ms-auto">
@@ -65,6 +68,9 @@ export const header = `
                 <li class="nav-item mx-auto">
                     <a class="nav-link" href="characters.html">Characters</a>
                 </li>
+                <li class="nav-item mx-auto">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
                 <li class="nav-item mx-auto">
                     <a class="nav-link" href="about.html">About</a>
                 </li>
